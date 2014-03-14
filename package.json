@@ -1,0 +1,40 @@
+{
+  "name": "shc",
+  "version": "0.0.0",
+  "description": "Establish shell connections to remote hosts.",
+  "keywords": [
+    "ssh"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jared@nodeprime.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NodePrime/node-shc.git"
+  },
+  "bugs": {
+    "url": "http://github.com/NodePrime/node-shc/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "ssh2": "0.2.x",
+    "debug": "0.7.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
