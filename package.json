@@ -26,7 +26,7 @@
   "dependencies": {
     "promise-deferred": "0.1.x",
     "buffers": "0.1.x",
-    "ssh2": "0.2.x",
+    "ssh2": "~0.2.22",
     "debug": "0.7.x"
   },
   "devDependencies": {
